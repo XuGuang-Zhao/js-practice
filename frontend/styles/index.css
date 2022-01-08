@@ -1,0 +1,23 @@
+#homePage {
+    background-color: #f4ede3;
+}
+
+#mainIndexHeading {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+#mainIndexIntro {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+#splitIntro {
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.card-content {
+    font-weight: 800;
+    font-size: 1.3rem;
+}

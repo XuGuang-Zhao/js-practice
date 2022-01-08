@@ -1,0 +1,107 @@
+.channel-container {
+    height: 100vh;
+    flex-direction: column;
+}
+
+.channel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #350d36;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.channel-heading {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.channel-heading2 {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+#channelUser {
+    font-size: 1rem;
+}
+
+.channels-body {
+    display: flex;
+    flex: 1;
+}
+
+.channels-sidebar {
+    background-color: #3f0e40;
+    color: white;
+    padding: 10px;
+    width: 160px;
+    flex-shrink: 0;
+}
+
+.add-button {
+    border: 0;
+    font-size: 0.9rem;
+}
+
+.channel-list, .member-list {
+    margin-bottom: 10px;
+    max-height: 190px;
+    overflow: auto;
+}
+
+.channel, .member {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 5px 10px;
+    color: #b3a0b4;
+}
+
+.channel:hover {
+    color: #fff;
+}
+
+.channel.select {
+    background: #1164a3;
+    color: #fff;
+    cursor: auto;
+}
+
+.modal-content {
+    color: #000;
+}
+
+.modal-dialog {
+    margin-top: 15% !important;
+}
+
+#heading-button {
+    background: none;
+    border: 0;
+}
+
+#channelHeading:hover {
+    background: rgba(0, 0, 0, .08);
+}
+
+#channelHeading {
+    margin: 0;
+    background-color: #fff;
+    padding: 5px;
+    font-size: 1.3rem;
+    font-weight: 800;
+    border-radius: 6px;
+}
+
+.displayChannelInfo {
+    font-size: 16px;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+#editChannelButton {
+    display: none;
+}
